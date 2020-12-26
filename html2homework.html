@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>html2_homework</title>
+</head>
+<body>
+<table border="1">
+	<caption>Table</caption>
+	<thead>
+		<th colspan="3">About me--108302004</th>
+		<tr>
+			<th rowspan="3">
+				<img src="html2/cat.jpg" width="250ptx" height="125ptx">
+			</th>
+			<td colspan="2" >
+				<form>
+					<p>
+						Name:<input type="text" name="Name">
+					</p>
+					<p>
+						<form>
+						Gender:
+							<input type="radio" name="Gender"id="Male">
+							<label for="Male">Male</label>
+							<input type="radio" name="Gender"id="Female">
+							<label for="Female">Female</label>
+							<input type="radio" name="Gender"id="Other">
+							<label for="Other">Other</label>
+
+						</form>
+					</p>
+							
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1">
+				<form>
+					<label for="Country">Country:</label>
+					<select name="Country" id="Country">
+						<option value="Taipei">Taipei</option>
+						<option value="Taichung">Taichung</option>
+						<option value="Kaoshung">Kaoshung</option>
+						<option value="Hualien">Hualien</option>
+					</select>
+
+				</form>
+			</td>
+
+			<td colsapn="1">
+				<form>
+					<p>
+						Birthday:<input type="date" name="birthday"value="2000-01-01"min="1900-01-01"max="2020-12-25">
+					</p>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<form>
+					<p>
+						Email:<input type="text" name="Email">
+					</p>
+				</form>
+			</td>
+
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1">Hobby</td>
+			<td colspan="2">
+				<input type="checkbox" id="swimming"name="swimming"value="swim">
+				<label for="swimming">Swimming</label>
+				<input type="checkbox" id="volleyball"name="volleyball"value="ball">
+				<label for="volleyball">Volleyball</label>
+				<input type="checkbox" id="Movies"name="Movies"value="movie">
+				<label for="Movies">Movies</label>
+				<input type="checkbox" id="Games"name="Games"value="games">
+				<label for="Games">Games</label>
+				<input type="checkbox" id="Sleeping"name="Sleeping"value="sleep">
+				<label for="Sleeping">Sleeping</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1">Skill</td>
+			<td colspan="2">
+				<input type="checkbox" id="Java"name="Java"value="swim">
+				<label for="Java">Java</label>
+				<input type="checkbox" id="HTML"name="HTML"value="HTML">
+				<label for="HTML">HTML</label>
+				<input type="checkbox" id="Python"name="Python"value="Python">
+				<label for="Python">Python</label>
+				<input type="checkbox" id="Microsoft Office"name="Microsoft Office"value="Microsoft Office">
+				<label for="Microsoft Office">Microsoft</label>
+				<input type="checkbox" id="Adobe Premiere"name="Adobe Premiere"value="Adobe Premiere">
+				<label for="Adobe Premiere">Adobe Premiere</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1">Anything to add</td>
+			<td colspan="2">
+				<form>
+					<label for="text_area"></label>
+					<textarea id="text_area"name="text_area"rows="5"cols="50">Anything to add:</textarea>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" align="center" valign="center">
+				<form>
+					<input type="submit" name="Submit">
+					<input type="reset" name="Reset">
+				</form>
+			</td>
+		</tr>
+		
+			
+		
+</table>
+
+</body>
+</html>
